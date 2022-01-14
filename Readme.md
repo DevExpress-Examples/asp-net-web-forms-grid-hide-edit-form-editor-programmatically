@@ -4,7 +4,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/e4999/)**
 <!-- run online end -->
 
-In this example the edit form hides an editor for the **Description** column if the current row's category name meets certain conditions.
+In this example, the edit form hides an editor for the **Description** column if the current row's category name meets certain conditions.
 
 ![GridView edit form](editor-visibility-in-edit-form.png)
 
