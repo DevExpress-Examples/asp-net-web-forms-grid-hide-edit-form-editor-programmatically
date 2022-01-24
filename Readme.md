@@ -6,7 +6,7 @@
 # GridView for Web Forms - How to hide the EditForm editor and column caption programmatically
 
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4999/)**
+**[[Run Online]](https://codecentral.devexpress.com/128534463/)**
 <!-- run online end -->
 
 In this example, the edit form hides an editor for the **Description** column if the current row's category name meets certain conditions.
