@@ -11,7 +11,7 @@
 <!-- default file list end -->
 # ASPxGridView - How to hide the EditForm editor and column caption programmatically
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4999/)**
+**[[Run Online]](https://codecentral.devexpress.com/128534463/)**
 <!-- run online end -->
 
 
