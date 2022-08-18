@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E4999)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# GridView for Web Forms - How to hide the EditForm editor and column caption programmatically
+# Grid View for ASP.NET Web Forms - How to hide the EditForm editor and column caption programmatically
 
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/128534463/)**
@@ -13,7 +13,9 @@ In this example, the edit form hides an editor for the **Description** column if
 
 ![GridView edit form](editor-visibility-in-edit-form.png)
 
-Specify the [EditFormSettings.Visible](https://docs.devexpress.com/AspNet/DevExpress.Web.GridColumnEditFormSettings.Visible) property value in the [BeforeGetCallbackResult](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridBase.BeforeGetCallbackResult) event handler to change an editor's visibility.
+## Implementation Details
+
+Specify the [`EditFormSettings.Visible`](https://docs.devexpress.com/AspNet/DevExpress.Web.GridColumnEditFormSettings.Visible) property value in the [`BeforeGetCallbackResult`](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridBase.BeforeGetCallbackResult) event handler to change an editor's visibility.
 
 ```cs
 private string[] values = new string[] { "CategoryName1", "CategoryName3", "CategoryName5", "CategoryName7" };
