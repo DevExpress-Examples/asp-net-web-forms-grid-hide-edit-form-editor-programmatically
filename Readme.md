@@ -15,7 +15,7 @@ In this example, the edit form hides an editor for the **Description** column if
 
 ## Implementation Details
 
-Specify the [`EditFormSettings.Visible`](https://docs.devexpress.com/AspNet/DevExpress.Web.GridColumnEditFormSettings.Visible) property value in the [`BeforeGetCallbackResult`](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridBase.BeforeGetCallbackResult) event handler to change an editor's visibility.
+Specify the [EditFormSettings.Visible](https://docs.devexpress.com/AspNet/DevExpress.Web.GridColumnEditFormSettings.Visible) property value in the [BeforeGetCallbackResult](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridBase.BeforeGetCallbackResult) event handler to change an editor's visibility.
 
 ```cs
 private string[] values = new string[] { "CategoryName1", "CategoryName3", "CategoryName5", "CategoryName7" };
