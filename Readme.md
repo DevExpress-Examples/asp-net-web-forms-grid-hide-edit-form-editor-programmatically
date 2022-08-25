@@ -34,7 +34,7 @@ private void HideEditor(ASPxGridView gv) {
 
 ## Files to Look At
 
-- [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
+- [Default.aspx.cs](./CS/Solution/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Solution/Default.aspx.vb))
 ## More Examples
 
 - [GridView for Web Forms - How to adjust Edit Form layout using the EditFormLayoutProperties property](https://github.com/DevExpress-Examples/aspxgridview-how-to-adjust-edit-form-layout-using-the-editformlayoutproperties-property-t285676)
